@@ -3,66 +3,58 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Alatsi', sans-serif;
-}
-
-.box {
-    background-color: white;
-    width: 300px;
-    
-    display: flex;
-    margin: auto;
-    
-    
-    
-    
-}
-
-body {
-    width: 100%;
-    height: 100vh;
-    margin: auto;
-    background: linear-gradient(to right top, #eee6ff, #aa80ff);
-    
+    font-size: 20px;
 }
 
 ul li {
     list-style: none;
 }
 
-.logo {
+main {
+    background-color: yellow;
+    display: flex;
+    width: 70%;
+    height: 70vh;
+    margin: auto;
+    justify-content: space-around;
     
-    height: 22vh;
-    border-radius: 11vh;
 }
 
 nav {
-    margin-top: 10vh;
+    background-color: tomato;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    height: 25vh;
-}
-
-.name {
-    
-    text-transform: uppercase;
-    display: flex;
-    height: 5vh;
-    width: 350px;
-    text-align: center;
+    width: 70%;
+   height: 200px;
+   justify-content: space-between;
+   margin: auto;
 }
 
 .about {
     
-    display: flex;
-    height: 10vh;
-    width: 350px;
-
+}
+.logo {
+    height: 200px;
+    border-radius: 100px;
 }
 
-.box {
-    background-color: white;
-    width: 70%;
-    height: 100vh;
-    display: flex;
+.experince {
+    background-color: teal;
+    width: 20%;
 }
+
+.skills {
+    background-color: rgb(196, 122, 11);
+    width: 20%;
+}
+
+.education {
+    background-color: rgb(196, 11, 104);
+    width: 20%;
+}
+
+.hobby {
+    background-color: rgb(54, 196, 11);
+    width: 20%;
+}
+    
